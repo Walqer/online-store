@@ -1,0 +1,16 @@
+{
+    "promocodes": [
+        {
+            "id": 0,
+            "description": "New Year Promo",
+            "code": "2023",
+            "discountPercentage": 10
+        },
+        {
+            "id": 1,
+            "description": "Rs school promocode",
+            "code": "rs",
+            "discountPercentage": 30
+        }
+    ]
+}

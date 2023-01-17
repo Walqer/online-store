@@ -1,0 +1,132 @@
+.products-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar {
+    flex-basis: 348px;
+    display: flex;
+    flex-direction: column;
+    background-color: $gray;
+    padding: 23px 23px;
+}
+
+.products-list {
+    width: 1104px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    background-color: $gray;
+}
+
+.products-utilities {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 27px 23px;
+    font-size: 18px;
+    font-weight: bold;
+    color: $green;
+}
+
+.utilities {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar,
+.sort-bar,
+.view-bar {
+    padding: 0 0 0 20px;
+}
+
+.product-sort,
+.product-view {
+    height: 36px;
+    width: 138px;
+    font-size: 16px;
+    background: $dark_gray;
+    border-radius: 5px;
+    border: 1px solid #969696;
+    box-shadow: none;
+    padding: 8px 8px;
+    outline: none;
+}
+
+.product-search {
+    height: 36px;
+    width: 138px;
+    font-size: 16px;
+    background: $dark_gray;
+    border-radius: 5px;
+    border: 1px solid #969696;
+    box-shadow: none;
+    padding: 8px 8px;
+    outline: none;
+}
+
+.filter-utilities {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filter-button {
+    font-weight: 700;
+    width: 137px;
+    border: none;
+    padding: 13px 0;
+    border-radius: 5px;
+    background-color: $dark_gray;
+    cursor: pointer;
+}
+
+.filter-title {
+    font-size: 16px;
+}
+
+.filter-category,
+.filter-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 23px 0 0 0;
+}
+
+.filter-category-list,
+.filter-brand-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    overflow-y: auto;
+    height: 250px;
+}
+
+.filter-checkbox-line {
+    display: flex;
+    align-items: center;
+    padding: 3px 0;
+    justify-content: space-between;
+}
+
+.filter-check {
+    width: 17px;
+    height: 17px;
+    accent-color: $dark-gray;
+}
+
+.checkbox-line {
+    display: flex;
+    align-items: center;
+}
+
+.filter-check-label {
+    padding-left: 5px;
+}
